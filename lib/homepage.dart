@@ -30,7 +30,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void initState() {
     super.initState();
     if (Platform.isAndroid) {
-      type = false;
+      type = true;
     }
     if (Platform.isIOS) {
       type = false;
